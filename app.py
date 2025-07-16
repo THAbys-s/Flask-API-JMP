@@ -112,3 +112,10 @@ def artista(id):
           'Name': fila['Name'],
           'url': url_for('artista', id=id, _external=True)}
    return jsonify(res)
+
+
+@app.route("/api")
+def api():
+   res = {'Albums_url': url_for('albums', _external=True), 
+          'Artistas_url': url_for('artistas', _external=True)}
+   return jsonify(res)
