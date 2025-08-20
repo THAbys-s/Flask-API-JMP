@@ -14,5 +14,6 @@ build/
 .idea/
 *.swp
 *~
+api.sqlite
 
-tabla_ejemplo.sql
+api.sqlite
