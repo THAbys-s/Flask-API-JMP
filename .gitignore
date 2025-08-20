@@ -1,4 +1,6 @@
+
 .venv/
+
 *.pyc
 __pycache__/
 instance/
@@ -12,3 +14,5 @@ build/
 .idea/
 *.swp
 *~
+
+tabla_ejemplo.sql
